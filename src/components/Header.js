@@ -35,14 +35,19 @@ const items = [
     label: "Videos"
   },
   {
-    idUrl: "/shop",
-    title: "shop",
+    idUrl: "/merch",
+    title: "merch",
     label: "Buy Merch"
   },
   {
     idUrl: "/contact",
     title: "contact",
     label: "Contact / Booking"
+  },
+  {
+    idUrl: "/paintings",
+    title: "paintings",
+    label: "Paintings and Sculptures"
   }
 ];
 
@@ -91,16 +96,6 @@ const Header = () => {
                 label={item.label}
               />
             ))}
-            <li>
-              <a
-                href="http://warriorsoulofficial.com/artwork/"
-                title="Paintings and Sculptures by Kory Clarke"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Paintings and Sculptures
-              </a>
-            </li>
           </ul>
 
           <p>Copyright 2020 Warrior Soul</p>

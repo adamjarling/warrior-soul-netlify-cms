@@ -1,14 +1,15 @@
-import React from 'react';
-import Album from './albums/Album';
-import albumDrugsGod from '../images/album-drugs-god-new-republic.jpg';
-import albumLastDecade from '../images/album-last-decade-dead-century.jpg';
-import albumSalutations from '../images/album-salutations-ghetto-nation.jpg';
-import albumSpaceAge from '../images/album-space-age-playboys.jpg';
-import albumClassics from '../images/album-classics.jpg';
-import albumWarMachine from '../images/album-destroy-the-war-machine.jpg';
-import albumLash from '../images/album-back-on-the-lash.jpg';
-import albumStiffMiddleFinger from '../images/album-stiff-middle-finger.jpg';
-import albumPayback from '../images/album-paybacks-a-bitch.jpg';
+import React from "react";
+import Album from "./albums/Album";
+import albumDrugsGod from "../images/album-drugs-god-new-republic.jpg";
+import albumLastDecade from "../images/album-last-decade-dead-century.jpg";
+import albumSalutations from "../images/album-salutations-ghetto-nation.jpg";
+import albumSpaceAge from "../images/album-space-age-playboys.jpg";
+import albumClassics from "../images/album-classics.jpg";
+import albumWarMachine from "../images/album-destroy-the-war-machine.jpg";
+import albumLash from "../images/album-back-on-the-lash.jpg";
+import albumStiffMiddleFinger from "../images/album-stiff-middle-finger.jpg";
+import albumPayback from "../images/album-paybacks-a-bitch.jpg";
+import albumRnR from "../images/album-rnr-disease.jpg";
 
 const Albums = () => {
   return (
@@ -24,9 +25,21 @@ const Albums = () => {
 
       <div className="row half-bottom">
         <Album
+          albumTitle="Rock and Roll Disease"
+          albumImg={albumRnR}
+          recordLabel="Cargo Records UK / Livewire"
+          released="June 2019"
+          url="https://cargorecordsdirect.co.uk/collections/all/products/warrior-soul-rock-n-roll-disease"
+          year="2019"
+          iTunes="https://music.apple.com/us/album/rock-n-roll-disease/1462066350"
+          spotify="https://open.spotify.com/album/7hQ4aQk5Xv6XVRcAiHMjso?si=bmr7QtYGQASVZXJ7oRxU2w"
+          amazon="https://www.amazon.com/Rock-Roll-Disease-Warrior-Soul/dp/B07R8BLQ7D"
+          producers="Kory Clarke and Adam Arling"
+        />
+        <Album
           albumTitle="Back on the Lash"
           albumImg={albumLash}
-          recordLabel="Cargo Records UK"
+          recordLabel="Cargo Records UK / Livewire"
           released="December 2017"
           url="https://cargorecordsdirect.co.uk/products/warrior-soul-back-on-the-lash"
           year="2017"
@@ -34,6 +47,8 @@ const Albums = () => {
           spotify=""
           amazon="https://music.amazon.com/albums/B0771SQFBQ?ref=dm_sh_9cc6-adb7-dmcp-49e2-f6f06&musicTerritory=US&marketplaceId=ATVPDKIKX0DER"
         />
+      </div>
+      <div className="row half-bottom">
         <Album
           albumTitle="Last Decade Dead Century"
           albumImg={albumLastDecade}
@@ -44,8 +59,6 @@ const Albums = () => {
           spotify=""
           amazon="https://music.amazon.com/albums/B002A7YFIO?ref=dm_sh_9497-435a-dmcp-cd2c-47fd6&musicTerritory=US&marketplaceId=ATVPDKIKX0DER"
         />
-      </div>
-      <div className="row half-bottom">
         <Album
           albumTitle="Drugs, God and the New Republic"
           albumImg={albumDrugsGod}
@@ -56,6 +69,8 @@ const Albums = () => {
           spotify=""
           amazon="https://music.amazon.com/albums/B015KQ4086?ref=dm_sh_c95e-d367-dmcp-27e0-abbcd&musicTerritory=US&marketplaceId=ATVPDKIKX0DER"
         />
+      </div>
+      <div className="row half-bottom">
         <Album
           albumTitle="Salutations from the Ghetto Nation"
           albumImg={albumSalutations}
@@ -66,8 +81,6 @@ const Albums = () => {
           spotify=""
           amazon="https://music.amazon.com/albums/B002AB4LIY?ref=dm_sh_bfaf-e219-dmcp-bc23-6d8f5&musicTerritory=US&marketplaceId=ATVPDKIKX0DER"
         />
-      </div>
-      <div className="row half-bottom">
         <Album
           albumTitle="The Space Age Playboys"
           albumImg={albumSpaceAge}
@@ -78,6 +91,8 @@ const Albums = () => {
           spotify=""
           amazon="https://music.amazon.com/albums/B002AB4LIY?ref=dm_sh_bfaf-e219-dmcp-bc23-6d8f5&musicTerritory=US&marketplaceId=ATVPDKIKX0DER"
         />
+      </div>
+      <div className="row half-bottom">
         <Album
           albumTitle="Classics"
           albumImg={albumClassics}
@@ -88,8 +103,6 @@ const Albums = () => {
           spotify=""
           amazon=""
         />
-      </div>
-      <div className="row half-bottom">
         <Album
           albumTitle="Destroy The War Machine"
           albumImg={albumWarMachine}
@@ -100,6 +113,8 @@ const Albums = () => {
           spotify=""
           amazon="https://music.amazon.com/albums/B015JZO8L2?ref=dm_sh_6dae-93fa-dmcp-6d65-1d48c&musicTerritory=US&marketplaceId=ATVPDKIKX0DER"
         />
+      </div>
+      <div className="row half-bottom">
         <Album
           albumTitle="Payback's a Bitch"
           albumImg={albumPayback}
@@ -111,9 +126,6 @@ const Albums = () => {
           spotify=""
           amazon="https://music.amazon.com/albums/B017R2WQIW?ref=dm_sh_d9c0-6284-dmcp-6d7f-faa85&musicTerritory=US&marketplaceId=ATVPDKIKX0DER"
         />
-      </div>
-      <div className="row half-bottom">
-        
         <Album
           albumTitle="Stiff Middle Finger"
           albumImg={albumStiffMiddleFinger}

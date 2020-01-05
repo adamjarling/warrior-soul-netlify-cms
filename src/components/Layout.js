@@ -7,6 +7,7 @@ import Navbar from "../components/Navbar";
 import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
 import "../styles/App.css";
+import "../styles/css/_custom.scss";
 import PreLoader from "../components/Preloader";
 import PhotoSwipeBackground from "../components/PhotoSwipeBackground";
 import Header from "../components/Header";

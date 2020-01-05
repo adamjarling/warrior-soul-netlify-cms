@@ -5,8 +5,18 @@
   }
 }
 @media only screen and (max-width: 600px) {
-    .artist-pic {
-      width: 150px;
-      height: auto;
-    }
+  .artist-pic {
+    width: 150px;
+    height: auto;
   }
+}
+
+.header-menu-toggle {
+  background: black;
+  padding-right: 2rem;
+}
+
+.header-nav__close {
+  background: black;
+  padding-right: 0;
+}
